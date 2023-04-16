@@ -140,7 +140,7 @@ for(int o=0; o<=dim; o++){  // ciclo più esterno che scorre sui possibili valor
             k[i] = kappa_squared(r[i], E, l, prefactor, sigma);
             u_l[i] = ( (u_l[i-1] * (2 - 5./6 * h*h * k[i-1])) - (u_l[i-2] * (1 + h*h*k[i-2]/12)) ) / (1 + h*h*k[i]/12); // algoritmo di Numerov            
         };
-
+        prova
         for(int i=0; i<N; i++){  // ciclo per stampare posizioni e funzioni d'onda, compresi i primi due punti
             fprintf(output_es_1, "%3.4e %3.4e \n", r[i], u_l[i]);
         };
