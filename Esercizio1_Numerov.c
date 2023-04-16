@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
-cicciocane298jj
+
 
 #define N 10000 // numero di punti nel mesh
 #define epsilon 5.99 // parametro di LJ, in meV
