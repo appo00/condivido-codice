@@ -1,0 +1,25 @@
+//{
+    // start bash, not the mintty, or you'll get a new window
+    //"terminal.integrated.shell.windows": "C:\\cygwin64\\bin\\bash.exe",
+    
+    //"terminal.integrated.shell.windows": "C:\\programpowershell\\bin\\bash.exe",
+    
+
+    // Use this to keep bash from doing a 'cd ${HOME}'
+ //   "terminal.integrated.env.windows": {
+//      "CHERE_INVOKING": "1"
+//    },
+    // Make it a login shell
+//    "terminal.integrated.shellArgs.windows": [
+//      "-l"
+//    ],
+//  }
+
+{
+    "powershell.powerShellAdditionalExePaths": {
+        "Downloaded PowerShell": "C:/Users/username/Downloads/PowerShell/pwsh.exe",
+        "Built PowerShell": "C:/Users/username/src/PowerShell/src/powershell-win-core/bin/Debug/net6.0/win7-x64/publish/pwsh.exe"
+    },
+    "C_Cpp.errorSquiggles": "disabled",
+    "cmake.configureOnOpen": true,
+}
